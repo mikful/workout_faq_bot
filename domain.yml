@@ -20,26 +20,25 @@ entities:
 
 responses:
   utter_greet:
-  - text: "Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health?"
-
+  - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health?
   utter_goodbye:
-  - text: "See you tomorrow. Bye!"
-
+  - text: See you tomorrow. Bye!
+  utter_ask_rephrase:
+  - text: I didn't quite understand that. Can you rephrase?
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-  
+  - text: I am a bot, powered by Rasa.
   utter_ask_confirm_exercise:
   - text: Did you exercise yesterday? Don't sweat it if you didn't run a marathon - walks count!
   utter_ask_exercise:
   - text: What kind of exercise did you do?
   utter_ask_sleep:
-  - text: "How much sleep did you get last night?"
+  - text: How much sleep did you get last night?
   utter_ask_diet:
-  - text: "Did you stick to a healthy diet yesterday?"
+  - text: Did you stick to a healthy diet yesterday?
   utter_ask_stress:
-  - text: "Is your stress level low, medium, or high?"
+  - text: Is your stress level low, medium, or high?
   utter_ask_goal:
-  - text: "Setting goals - even small ones - is a great way to focus your day. What do you want to accomplish today?"
+  - text: Setting goals - even small ones - is a great way to focus your day. What do you want to accomplish today?
   utter_slots_values:
   - text: "Here's your daily wellness log:\n
             - Exercised?: {confirm_exercise}\n
@@ -49,71 +48,74 @@ responses:
             - Stress level: {stress}\n
             - Goal: {goal}"
   utter_no_worries:
-  - text: "No problem :)"
+  - text: No problem :)
   utter_ask_continue:
-  - text: "Sorry, I don't quite understand. Do you want to continue?"
-
+  - text: Sorry, I don't quite understand. Do you want to continue?
+  utter_thx_for_participation:
+  - text: Thank for your information
   utter_stress_info:
-  - text: "It's ok to feel overwhelmed at times. Try to set realistic expectations and exercise time management techniques, like dividing large tasks into more manageable pieces. Relaxation techniques, like deep breathing and meditation, can also be beneficial."
-
+  - text: It's ok to feel overwhelmed at times. Try to set realistic expectations and exercise time management techniques, like dividing large tasks into more manageable pieces. Relaxation techniques, like deep breathing and meditation, can also be beneficial.
   utter_exercise_info:
-  - text: "Most healthy adults should aim to get about 150 min of moderate exercise per week. This includes activities like a brisk walk or yard work."
-
+  - text: Most healthy adults should aim to get about 150 min of moderate exercise per week. This includes activities like a brisk walk or yard work.
   utter_diet_info:
-  - text: "A healthy diet includes fruits and vegetables, whole grains, dairy, lean protein, and plant-based fats. While there is room in a healthy diet for treats, added sugar should be eaten sparingly. Aim for a variety of foods, and balance."
-
+  - text: A healthy diet includes fruits and vegetables, whole grains, dairy, lean protein, and plant-based fats. While there is room in a healthy diet for treats, added sugar should be eaten sparingly. Aim for a variety of foods, and balance.
 slots:
   confirm_exercise:
     type: any
+    influence_conversation: false
   exercise:
     type: any
+    influence_conversation: false
   sleep:
     type: any
+    influence_conversation: false
   diet:
     type: any
+    influence_conversation: false
   stress:
     type: any
+    influence_conversation: false
   goal:
     type: any
-
+    influence_conversation: false
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 0
   carry_over_slots_to_new_session: false
-
 actions:
 - action_submit_results
-- validate_health_form
-
+- action_echo_hey
+#- validate_health_form
 forms:
   health_form:
-    confirm_exercise:
-      - type: from_intent
-        intent: affirm
-        value: True
-      - type: from_intent
-        intent: deny
-        value: False
-      - type: from_intent
-        intent: inform
-        value: True
-    exercise:
-      - type: from_entity
-        entity: exercise
-    sleep:
-      - type: from_entity
-        entity: sleep
-      - type: from_intent
-        intent: deny
-        value: None
-    stress:
-      - type: from_entity
-        entity: stress
-    diet:
-      - type: from_text
-        intent: 
-          - inform 
-          - affirm 
-          - deny
-    goal:
-      - type: from_text
-        intent: inform
+    required_slots:
+      confirm_exercise:
+        - type: from_intent
+          intent: affirm
+          value: True
+        - type: from_intent
+          intent: deny
+          value: False
+        - type: from_intent
+          intent: inform
+          value: True
+      exercise:
+        - type: from_entity
+          entity: exercise
+      sleep:
+        - type: from_entity
+          entity: sleep
+        - type: from_intent
+          intent: deny
+          value: None
+      stress:
+        - type: from_entity
+          entity: stress
+      diet:
+        - type: from_text
+          intent:
+            - inform
+            - affirm
+            - deny
+      goal:
+        - type: from_text
+          intent: inform

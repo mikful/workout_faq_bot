@@ -117,6 +117,7 @@ nlu:
     - [high](stress)
     - Yes, I went for a [run](exercise)
     - uh huh an hour of [yoga](exercise)
+    - I would like [swim](exercise)
     - yep, I went for a [hike](exercise)
     - Yes I took the dog for a [walk](exercise)
     - Yeah, I played [tennis](exercise)
@@ -134,6 +135,7 @@ nlu:
     - Make sure to eat better tomorrow
     - eat less junk food
     - eat better
+    - walk 10 km
     - spend less time on my phone
     - don't procrastinate
     - Go to bed earlier
