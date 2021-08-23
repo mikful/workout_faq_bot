@@ -10,34 +10,36 @@ stories:
 #  - intent: track_progress
 #  - action: health_form
 #  - active_loop : health_form
-#  - action: action_submit_results
+#  - action: action_send_health_form
 #  - action: utter_slots_values
 #  - action: utter_goodbye
 
 - story: track progress
   steps:
+  - intent: greet
   - action: utter_greet
   - intent: track_progress
   - action: utter_track_progress
   - action: health_form
   - active_loop : health_form
-  - action: action_submit_results
-  - action: utter_slots_values
+#  - action: action_send_health_form
+#  - action: utter_slots_values
   - action: utter_goodbye
 
-- story: wanna ask question
-  steps:
-  - action: utter_greet
-  - intent: ask_questions
-  - action: utter_ask_questions
-  - action: action_echo_hey
-  - action: utter_goodbye
+#- story: wanna ask question
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: ask_questions
+#  - action: utter_ask_questions
+#  - action: action_echo_hey
+#  - action: utter_goodbye
 
 #  - action: utter_greet
 #  - intent: affirm
 #  - action: health_form
 #  - active_loop : health_form
-#  - action: action_submit_results
+#  - action: action_send_health_form
 #  - action: utter_slots_values
 #  - action: utter_goodbye
 #  - action: utter_slots_values

@@ -117,7 +117,7 @@ class ActionSubmitResults(Action):
 
     def name(self) -> Text:
         print("action has been returned ")
-        return "action_submit_results"
+        return "action_send_health_form"
 
     async def run(
             self,

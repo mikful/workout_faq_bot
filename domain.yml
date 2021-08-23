@@ -12,6 +12,8 @@ intents:
   - ask_lower_stress
   - ask_eat_healthy
   - ask_exercise
+  - ask_questions
+  - track_progress
 
 entities:
   - exercise
@@ -21,6 +23,8 @@ entities:
 responses:
   utter_greet:
   - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health or you would like to ask my several question about fitness?
+  utter_track_progress:
+  - text: Now, let's track your progress. Please, answer several questions.
   utter_ask_questions:
   - text: Please go a head. What you would like to know about fitness ?
   utter_goodbye:
@@ -42,7 +46,7 @@ responses:
   utter_ask_goal:
   - text: Setting goals - even small ones - is a great way to focus your day. What do you want to accomplish today?
   utter_slots_values:
-  - text: "Here's your daily wellness log:\n
+  - text: "Here's your ***wellness*** log:\n
             - Exercised?: {confirm_exercise}\n
             - Type of exercise: {exercise}\n
             - Sleep: {sleep}\n
@@ -84,7 +88,7 @@ session_config:
   session_expiration_time: 0
   carry_over_slots_to_new_session: false
 actions:
-- action_submit_results
+- action_send_health_form
 - action_echo_hey
 #- validate_health_form
 forms:

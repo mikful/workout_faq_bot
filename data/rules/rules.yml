@@ -1,37 +1,16 @@
-rules
 version: "2.0"
 
-- rule: Submit form
-    condition:
-    # Condition that form is active.
-    - active_loop: health_form
-    steps:
-    - action: health_form
-    - active_loop: null
-    - slot_was_set:
-        - requested_slot: null
-#    - action: action_submit_results
-#    - action: utter_slots_values
-#    - action: utter_goodbye
-#    - action: action_submit_results
-#    - action: utter_thx_for_participation
-
-
+rules:
 
 - rule: Greeting
   steps:
   - intent: greet
   - action: utter_greet
 
-- rule: Wanna track progress
-  steps:
-  - intent: track_progress
-  - action: utter_track_progress
-
-- rule: Wanna ask questions
-  steps:
-  - intent: ask_questions
-  - action: utter_ask_questions
+#- rule: Wanna track progress
+#  steps:
+#  - intent: track_progress
+#  - action: utter_track_progress
 
 - rule: Goodbye
   steps:
@@ -63,3 +42,26 @@ version: "2.0"
   steps:
   - intent: ask_lower_stress
   - action: utter_stress_info
+
+- rule: Wanna ask questions
+  steps:
+  - intent: ask_questions
+  - action: utter_ask_questions
+
+- rule: Wanna track progress
+  condition:
+  # Condition that form is active.
+  - active_loop: health_form
+  steps:
+  - action: health_form
+  - active_loop: null
+  - action: utter_slots_values
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_send_health_form
+
+#    - action: action_send_health_form
+#    - action: utter_slots_values
+#    - action: utter_goodbye
+#    - action: action_send_health_form
+#    - action: utter_thx_for_participation
