@@ -26,12 +26,12 @@ stories:
 #  - action: utter_slots_values
   - action: utter_goodbye
 
-#- story: wanna ask question
-#  steps:
-#  - intent: greet
-#  - action: utter_greet
-#  - intent: ask_questions
-#  - action: utter_ask_questions
+- story: wanna ask question
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_questions
+  - action: utter_ask_questions
 #  - action: action_echo_hey
 #  - action: utter_goodbye
 

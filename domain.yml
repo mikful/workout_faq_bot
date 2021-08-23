@@ -14,6 +14,9 @@ intents:
   - ask_exercise
   - ask_questions
   - track_progress
+  - fitness_q1
+  - fitness_q2
+  - fitness_q3
 
 entities:
   - exercise
@@ -21,6 +24,8 @@ entities:
   - stress
 
 responses:
+  utter_fitness_answer:
+  - text: Hey I receive the question about the fitness ( q1 or q2 or q3 ). And I need to handle it.
   utter_greet:
   - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health or you would like to ask my several question about fitness?
   utter_track_progress:
@@ -90,6 +95,7 @@ session_config:
 actions:
 - action_send_health_form
 - action_echo_hey
+- action_fitness_answer
 #- validate_health_form
 forms:
   health_form:

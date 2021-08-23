@@ -94,6 +94,23 @@ nlu:
     - Is walking once a day enough exercise?
     - How much exercise should I do every day?
     - How many times per week should I go to the gym?
+
+- intent: fitness_q1
+  examples: |
+    - What exercises should I perform to reduce fat on an area of my body called belly ?
+    - What is the best exercise agains belly fat ?
+    - How to reduce belly fat ?
+
+- intent: fitness_q2
+  examples: |
+    - Optimal exercises for an abdominal workout
+    - What are optimal exercises for an abdominal workout
+
+- intent: fitness_q3
+  examples: |
+    - How old should children be to train with weights?
+    - Is it okey for children to train with weights?
+
 - intent : out_of_scope
   examples:  |
     - that's not what I want to do

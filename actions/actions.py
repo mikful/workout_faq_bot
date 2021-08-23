@@ -9,6 +9,8 @@ import requests
 import os
 from pyairtable import Table
 
+from actions.qa_db import question_answer_pair
+
 load_dotenv()
 
 airtable_api_key = os.getenv("AIRTABLE_API_KEY")
@@ -109,6 +111,26 @@ class UtterHey(Action):
             domain: Dict[Text, Any],
     ) -> List[Dict]:
         dispatcher.utter_message("Echo, hey actions server is working")
+        return []
+
+
+class ActionAnswerFitnessQuestion(Action):
+    def name(self) -> Text:
+        print("action action_fitness_answer has been returned echo working*** ")
+        return "action_fitness_answer"
+
+    async def run(
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
+    ) -> List[Dict]:
+        print("action_fitness_answer *** 3")
+        intent = tracker.latest_message['intent'].get('name')
+        # print(intent)
+        # print(question_answer_pair(f"{intent}"))
+        # dispatcher.utter_message("Echo, hey actions with answers are working")
+        dispatcher.utter_message(question_answer_pair(f"{intent}"))
         return []
 
 

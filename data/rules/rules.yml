@@ -43,10 +43,10 @@ rules:
   - intent: ask_lower_stress
   - action: utter_stress_info
 
-- rule: Wanna ask questions
-  steps:
-  - intent: ask_questions
-  - action: utter_ask_questions
+#- rule: Wanna ask questions
+#  steps:
+#  - intent: ask_questions
+#  - action: utter_ask_questions
 
 - rule: Wanna track progress
   condition:
@@ -59,6 +59,23 @@ rules:
   - slot_was_set:
     - requested_slot: null
   - action: action_send_health_form
+
+- rule: Questions about fitness while there isn't any form to fill
+#  condition:
+#  - active_loop: null
+  steps:
+#  - intent: ask_questions
+  - action: utter_ask_questions
+  - or:
+    - intent: fitness_q1
+    - intent: fitness_q2
+    - intent: fitness_q3
+  - action: utter_fitness_answer
+  - action: action_fitness_answer
+  - action: utter_goodbye
+
+
+
 
 #    - action: action_send_health_form
 #    - action: utter_slots_values
