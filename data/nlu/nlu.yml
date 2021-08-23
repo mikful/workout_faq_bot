@@ -33,6 +33,31 @@ nlu:
     - okay
     - alright
     - positively
+
+- intent: ask_questions
+  examples: |
+    - I would like to ask a question
+    - I would like to ask some questions
+    - A question
+    - question
+    - wanna ask
+    - ask question
+    - ask questions
+    - Could you answer a question
+    - question about fitness
+    - yes, question
+    - yes question
+
+- intent: track_progress
+  examples: |
+    - I would like to track my progress
+    - Track the progress
+    - Track progress
+    - Track
+    - progress
+    - yes, progress
+    - yes progress
+
   
 - intent: deny
   examples:  |
@@ -45,7 +70,7 @@ nlu:
     - i deny
     - i don't think so
     - i doubt 
-    -could have been better
+    - could have been better
   
 - intent: thankyou
   examples: |

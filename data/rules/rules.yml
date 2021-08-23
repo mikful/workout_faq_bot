@@ -18,38 +18,48 @@ version: "2.0"
 
 
 
-  - rule: Greeting
-    steps:
-    - intent: greet
-    - action: utter_greet
+- rule: Greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
 
-  - rule: Goodbye
-    steps:
-    - intent: goodbye
-    - action: utter_goodbye
+- rule: Wanna track progress
+  steps:
+  - intent: track_progress
+  - action: utter_track_progress
 
-  - rule: Thanks
-    steps:
-    - intent: thankyou
-    - action: utter_no_worries
-    - action: utter_goodbye
+- rule: Wanna ask questions
+  steps:
+  - intent: ask_questions
+  - action: utter_ask_questions
 
-  - rule: Bot challenge
-    steps:
-    - intent: bot_challenge
-    - action: utter_iamabot
+- rule: Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
 
-  - rule: Ask exercise question
-    steps:
-    - intent: ask_exercise
-    - action: utter_exercise_info
+- rule: Thanks
+  steps:
+  - intent: thankyou
+  - action: utter_no_worries
+  - action: utter_goodbye
 
-  - rule: Ask diet question
-    steps:
-    - intent: ask_eat_healthy
-    - action: utter_diet_info
+- rule: Bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
 
-  - rule: ask stress question
-    steps:
-    - intent: ask_lower_stress
-    - action: utter_stress_info
+- rule: Ask exercise question
+  steps:
+  - intent: ask_exercise
+  - action: utter_exercise_info
+
+- rule: Ask diet question
+  steps:
+  - intent: ask_eat_healthy
+  - action: utter_diet_info
+
+- rule: ask stress question
+  steps:
+  - intent: ask_lower_stress
+  - action: utter_stress_info

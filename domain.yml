@@ -20,7 +20,9 @@ entities:
 
 responses:
   utter_greet:
-  - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health?
+  - text: Hi! It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health or you would like to ask my several question about fitness?
+  utter_ask_questions:
+  - text: Please go a head. What you would like to know about fitness ?
   utter_goodbye:
   - text: See you tomorrow. Bye!
   utter_ask_rephrase:
