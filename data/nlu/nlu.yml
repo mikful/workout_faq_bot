@@ -214,7 +214,8 @@ nlu:
 - intent: ask_body_fat_q3
   examples: |
   # "I'm assuming you mean according to the BMI measure.
-      #So, while you can't target where your body burns fat, what you can do is change the proportions of muscle and fat at your weight."
+      #So, while you can't target where your body burns fat, what you can do is change the proportions of muscle and
+       # fat at your weight."
     - Is it possible to lose weight on some special parts of body?
 
 - intent: ask_body_fat_q4
@@ -246,7 +247,8 @@ nlu:
 - intent: ask_body_fat_q9
   examples: |
   # "More specifically the sodium/carb intake within your diet and hydration.
-      #Cut back on the salts and increase you're hydration and see if that can't take off some of the water weight in your face."
+      #Cut back on the salts and increase you're hydration and see if that can't take off some of the water weight
+      # in your face."
     - Chubbyness from the face and body
 
 - intent: ask_body_fat_q10
@@ -284,7 +286,7 @@ nlu:
     - How long does it take for muscles to recover?
 
 - intent: ask_muscle_mass_q4
-  examples: |
+  examples: | # todo
   # Testosterone and growth hormone are both known to cause muscle growth and make good use of the amino acids and proteins you have in your body at the time.
     - Best timing and amount of protein intake for building mass
 
@@ -354,7 +356,8 @@ nlu:
 - intent: ask_muscle_mass_q17
   examples: |
   # "The next week is for a transition, and the sets/reps are higher intensity but lower volume.
-      #He saw good results with that (all this fits within the increasing work capacity framework mind you), until he started stagnating and feeling beat up with that."
+      #He saw good results with that (all this fits within the increasing work capacity framework mind you),
+      # until he started stagnating and feeling beat up with that."
     - What are you views on progress between rep range vs. fixed reps?
 
 - intent: ask_muscle_mass_q18
@@ -379,9 +382,6 @@ nlu:
       #Personally, deadlifting heavy grew my obliques/lower abs/v(whatever that's called) more than anything else.
       #Good luck man  "
     - How can I increase ab depth and size?
-
-
-
 
 # -------------------------  muscle-mass qs end -------------------------------------
 
@@ -600,11 +600,6 @@ nlu:
     - Pinky finger movement affected by lifting weights?
 
 # -------------------------  strength qs end ----------------------------------------
-
-
-
-
-
 
 
 - intent: fitness_q1

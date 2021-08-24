@@ -70,6 +70,7 @@ rules:
     - intent: fitness_q1
     - intent: fitness_q2
     - intent: fitness_q3
+    # -------------------------  metabolism questions start --------------------------
     - intent: ask_metabol_q1
     - intent: ask_metabol_q2
     - intent: ask_metabol_q3
@@ -80,7 +81,7 @@ rules:
     - intent: ask_metabol_q8
     - intent: ask_metabol_q9
     - intent: ask_metabol_q10
-    # ------------------------- ends metabolism questions --------------------------
+    # -------------------------  metabolism questions end --------------------------
     # ------------------------- start weight-gain -----------------------------------
     - intent: ask_weight_gain_q1
     - intent: ask_weight_gain_q2

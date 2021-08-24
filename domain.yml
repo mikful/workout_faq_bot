@@ -17,6 +17,69 @@ intents:
   - fitness_q1
   - fitness_q2
   - fitness_q3
+# -------------------------  metabolism questions start --------------------------
+    - ask_metabol_q1
+    - ask_metabol_q2
+    - ask_metabol_q3
+    - ask_metabol_q4
+    - ask_metabol_q5
+    - ask_metabol_q6
+    - ask_metabol_q7
+    - ask_metabol_q8
+    - ask_metabol_q9
+    - ask_metabol_q10
+    # -------------------------  metabolism questions end ---------------------------
+
+    # ------------------------- start weight-gain -----------------------------------
+    - ask_weight_gain_q1
+    - ask_weight_gain_q2
+    - ask_weight_gain_q3
+    - ask_weight_gain_q4
+    - ask_weight_gain_q5
+    - ask_weight_gain_q6
+    - ask_weight_gain_q7
+    - ask_weight_gain_q8
+
+# -------------------------  weight-gain questions end ----------------------------------
+
+# -------------------------  reduce body-fat qs start -----------------------------------
+    - ask_body_fat_q1
+    - ask_body_fat_q2
+    - ask_body_fat_q3
+    - ask_body_fat_q4
+    - ask_body_fat_q5
+    - ask_body_fat_q6
+    - ask_body_fat_q7
+    - ask_body_fat_q8
+    - ask_body_fat_q9
+    - ask_body_fat_q10
+    - ask_body_fat_q11
+    - ask_body_fat_q12
+# -------------------------  reduce body-fat qs end -------------------------------------
+
+# -------------------------  muscle-mass qs start ---------------------------------------
+    - ask_muscle_mass_q1
+    - ask_muscle_mass_q2
+    - ask_muscle_mass_q3
+    - ask_muscle_mass_q4
+    - ask_muscle_mass_q5
+    - ask_muscle_mass_q6
+    - ask_muscle_mass_q7
+    - ask_muscle_mass_q8
+    - ask_muscle_mass_q9
+    - ask_muscle_mass_q10
+    - ask_muscle_mass_q11
+    - ask_muscle_mass_q12
+    - ask_muscle_mass_q13
+    - ask_muscle_mass_q14
+    - ask_muscle_mass_q15
+    - ask_muscle_mass_q16
+    - ask_muscle_mass_q17
+    - ask_muscle_mass_q18
+    - ask_muscle_mass_q19
+    - ask_muscle_mass_q20
+    - ask_muscle_mass_q21
+# -------------------------  muscle-mass qs end -------------------------------------
 
 entities:
   - exercise
