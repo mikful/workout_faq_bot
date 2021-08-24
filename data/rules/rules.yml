@@ -70,6 +70,125 @@ rules:
     - intent: fitness_q1
     - intent: fitness_q2
     - intent: fitness_q3
+    - intent: ask_metabol_q1
+    - intent: ask_metabol_q2
+    - intent: ask_metabol_q3
+    - intent: ask_metabol_q4
+    - intent: ask_metabol_q5
+    - intent: ask_metabol_q6
+    - intent: ask_metabol_q7
+    - intent: ask_metabol_q8
+    - intent: ask_metabol_q9
+    - intent: ask_metabol_q10
+    # ------------------------- ends metabolism questions --------------------------
+    # ------------------------- start weight-gain -----------------------------------
+    - intent: ask_weight_gain_q1
+    - intent: ask_weight_gain_q2
+    - intent: ask_weight_gain_q3
+    - intent: ask_weight_gain_q4
+    - intent: ask_weight_gain_q5
+    - intent: ask_weight_gain_q6
+    - intent: ask_weight_gain_q7
+    - intent: ask_weight_gain_q8
+
+# -------------------------  weight-gain questions end ----------------------------------
+
+# -------------------------  reduce body-fat qs start -----------------------------------
+    - intent: ask_body_fat_q1
+    - intent: ask_body_fat_q2
+    - intent: ask_body_fat_q3
+    - intent: ask_body_fat_q4
+    - intent: ask_body_fat_q5
+    - intent: ask_body_fat_q6
+    - intent: ask_body_fat_q7
+    - intent: ask_body_fat_q8
+    - intent: ask_body_fat_q9
+    - intent: ask_body_fat_q10
+    - intent: ask_body_fat_q11
+    - intent: ask_body_fat_q12
+# -------------------------  reduce body-fat qs end -------------------------------------
+# -------------------------  muscle-mass qs start -----------------------------------
+
+    - intent: ask_muscle_mass_q1
+    - intent: ask_muscle_mass_q2
+    - intent: ask_muscle_mass_q3
+    - intent: ask_muscle_mass_q4
+    - intent: ask_muscle_mass_q5
+    - intent: ask_muscle_mass_q6
+    - intent: ask_muscle_mass_q7
+    - intent: ask_muscle_mass_q8
+    - intent: ask_muscle_mass_q9
+    - intent: ask_muscle_mass_q10
+    - intent: ask_muscle_mass_q11
+    - intent: ask_muscle_mass_q12
+    - intent: ask_muscle_mass_q13
+    - intent: ask_muscle_mass_q14
+    - intent: ask_muscle_mass_q15
+    - intent: ask_muscle_mass_q16
+    - intent: ask_muscle_mass_q17
+    - intent: ask_muscle_mass_q18
+    - intent: ask_muscle_mass_q19
+    - intent: ask_muscle_mass_q20
+    - intent: ask_muscle_mass_q21
+# -------------------------  muscle-mass qs end -------------------------------------
+# -------------------------  strength qs start --------------------------------------
+    - intent: ask_strength_q1
+    - intent: ask_strength_q2
+    - intent: ask_strength_q3
+    - intent: ask_strength_q4
+    - intent: ask_strength_q5
+    - intent: ask_strength_q6
+    - intent: ask_strength_q7
+    - intent: ask_strength_q8
+    - intent: ask_strength_q9
+    - intent: ask_strength_q10
+    - intent: ask_strength_q11
+    - intent: ask_strength_q12
+    - intent: ask_strength_q13
+    - intent: ask_strength_q14
+    - intent: ask_strength_q15
+    - intent: ask_strength_q16
+    - intent: ask_strength_q17
+    - intent: ask_strength_q18
+    - intent: ask_strength_q19
+    - intent: ask_strength_q20
+    - intent: ask_strength_q21
+    - intent: ask_strength_q22
+    - intent: ask_strength_q23
+    - intent: ask_strength_q24
+    - intent: ask_strength_q25
+    - intent: ask_strength_q26
+    - intent: ask_strength_q27
+    - intent: ask_strength_q28
+    - intent: ask_strength_q29
+    - intent: ask_strength_q30
+    - intent: ask_strength_q31
+    - intent: ask_strength_q32
+    - intent: ask_strength_q33
+    - intent: ask_strength_q34
+    - intent: ask_strength_q35
+    - intent: ask_strength_q36
+    - intent: ask_strength_q37
+    - intent: ask_strength_q38
+    - intent: ask_strength_q39
+    - intent: ask_strength_q40
+    - intent: ask_strength_q41
+    - intent: ask_strength_q42
+    - intent: ask_strength_q43
+    - intent: ask_strength_q44
+    - intent: ask_strength_q45
+    - intent: ask_strength_q46
+    - intent: ask_strength_q47
+    - intent: ask_strength_q48
+    - intent: ask_strength_q49
+
+# -------------------------  strength qs end ----------------------------------------
+
+
+
+
+
+
   - action: utter_fitness_answer
   - action: action_fitness_answer
   - action: utter_goodbye

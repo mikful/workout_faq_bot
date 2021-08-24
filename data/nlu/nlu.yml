@@ -95,6 +95,518 @@ nlu:
     - How much exercise should I do every day?
     - How many times per week should I go to the gym?
 
+# ------------------------- start metabolism -------------------------
+- intent: ask_metabol_q1
+  examples: |
+  # If you're just playing amateur level sports, and make it your goal to have a massive vertical jump, you'll more than make up for your lack of height.
+    - How to Increase height naturally? Are those ads gimmicks?
+
+- intent: ask_metabol_q2
+  examples: |
+  # So now we've got people who've lost fat as well as useful lean body mass, have a lowered metabolic rate and are then released from their harsh crash diet.
+    - Can weight lost be sustained through exercise influenced metabolism changes?
+
+- intent: ask_metabol_q3
+  examples: |
+  # Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
+    - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
+
+
+- intent: ask_metabol_q4
+  examples: |
+    # Anaerobic workouts are basically intense workouts that push your body beyond the ability to provide energy just through normal aerobic metabolism.
+    - Does working a diverse set of muscles increase metabolism?
+
+
+- intent: ask_metabol_q5
+  examples: |
+  # The oxidative pathways run fairly continuously to maintain life and replenish tissues that have made use of anaerobic energy conversion.
+    - How does one train for sports when the three metabolic pathways interact?
+
+- intent: ask_metabol_q6
+  examples: |
+  # In this study :  http://www.mendeley.com/research/postexercise-energy-expenditure-response-acute-aerobic-resistive-exercise/  they used 90 minute, high intensity strength workouts, and still after 15 hours, the metabolic rate was elevated.
+    - Does exercise REALLY increase the basal metabolism rate for any significant length of time after the exercise is over?
+
+- intent: ask_metabol_q7
+  examples: |
+    # Vice versa, with higher peaks and stronger contractions you will get a glycolitic type of muscle; and this type of muscle is the one you want to get if you are trying to aim at power/strenght sports and/or hypertrophy ( composed mostly of IIa and IIx fibers ).
+    - How much cardio is advisable for an overweight person who is new to bodybuilding?
+
+- intent: ask_metabol_q8
+  examples: |
+    # Eating large portions spaced far apart will make the body believe there is a "famine" and will store the food as fat to prepare for hard times.
+    - Naturally increasing my Metabolism
+
+- intent: ask_metabol_q9
+  examples: |
+    # Progress can be measured by trying to determine her basal temperature; it's probably quite low now (almost nobody on the planet actually has a 98.6 deg.
+    - What is the best way to bring one's metabolism out of starvation mode following a diet?
+
+- intent: ask_metabol_q10
+  examples: |
+  # "They need a break to be ready for the next lifting. In that break time, they undergo repair and get nourished and grow stronger."
+    - why do we need more rest when lifting heavy?
+
+# ------------------------- ends metabolism questions --------------------------
+
+# ------------------------- start weight-gain -----------------------------------
+
+- intent: ask_weight_gain_q1
+  examples: |
+  # If you want upper-body mass you need to do activities that engage and exercise those muscle groups.
+    - How can I gain weight and muscle weight?
+
+- intent: ask_weight_gain_q2
+  examples: |
+  # So now we've got people who've lost fat as well as useful lean body mass, have a lowered metabolic rate and are then released from their harsh crash diet.
+    - Can weight lost be sustained through exercise influenced metabolism changes?
+
+- intent: ask_weight_gain_q3
+  examples: |
+  # Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
+    - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
+
+- intent: ask_weight_gain_q4
+  examples: |
+  # If you lift heavy three times a week and do GOMAD, a little less than half of the weight you gain will be fat.
+    - Weight gained using GOMAD strategy
+
+- intent: ask_weight_gain_q5
+  examples: |
+  # "My general suggestion for people are new to exercise is to start with aiming for balance of their intake of carbs and protein.
+      #How many calories depends a lot on your weight/height/age."
+    - How to gain weight for a naturally thin person?
+
+- intent: ask_weight_gain_q6
+  examples: |
+  # She's very likely a clear candidate for  weight loss surgery , and a physician friend of mine has told me of cases of extreme obesity (which your mother has) where removing the weight needs to be carefully tracked.
+    - Mom Losing Her Mobility Because of her Weight Gain
+
+- intent: ask_weight_gain_q7
+  examples: |
+  # "It might help you gain weight, but you would have to drink a lot of it.
+      #You're in a position where you have the opportunity to eat lots of nutritious foods which
+      # will benefit more then you know but you've chosen milk and honey."
+    - Milk+honey helps gain weight?
+
+- intent: ask_weight_gain_q8
+  examples: |
+  # I'm not saying be a body builder, but you want to increase your lean mass to keep your body fat low as you gain weight.
+  # At least 1g of protein per pound of lean body mass while you want to gain muscle.
+    - Gaining weight without gaining fat
+
+
+# -------------------------  weight-gain questions end ------------------------------
+
+# -------------------------  reduce body-fat qs start -----------------------------------
+
+- intent: ask_body_fat_q1
+  examples: |
+  # The second term probably corrects for height (so that tall people don't get punished for have proportionate girths), and the last term is probably an experimentally-justified constant that corrects the result of the equation to it's as close as possible to actual body fat levels.
+    - How accurate is the Navy Body Fat Calculator?
+
+- intent: ask_body_fat_q2
+  examples: |
+  # It's based on the idea that people who weigh significantly more or less than the average person of their height are probably not a healthy weight.
+    - Why is body mass index so widely used to determine ideal body weight?
+
+- intent: ask_body_fat_q3
+  examples: |
+  # "I'm assuming you mean according to the BMI measure.
+      #So, while you can't target where your body burns fat, what you can do is change the proportions of muscle and fat at your weight."
+    - Is it possible to lose weight on some special parts of body?
+
+- intent: ask_body_fat_q4
+  examples: |
+  # A light amount of cardio in morning before breakfast (called fasted cardio) targets the fat supplies and, for the most part, leaves your muscles intact.
+    - Body fat loss halted. Anyone have experience getting under 8% body fat?
+
+- intent: ask_body_fat_q5
+  examples: |
+  # "I think rice and fish is a good meal, but maybe try to change it a bit.
+      #If you fry your fish, try to use less fat."
+    - How to maintain my body without fat and reduce belly?
+
+- intent: ask_body_fat_q6
+  examples: |
+  # It may be the case, that there is actually quite little fat on your buttocks and legs, but it just looks a lot because of lack of muscle.
+    - Upper and lower body proportion, gaining muscle losing fat
+
+- intent: ask_body_fat_q7
+  examples: |
+  # Vice versa, with higher peaks and stronger contractions you will get a glycolitic type of muscle; and this type of muscle is the one you want to get if you are trying to aim at power/strenght sports and/or hypertrophy ( composed mostly of IIa and IIx fibers ).
+    - How much cardio is advisable for an overweight person who is new to bodybuilding?
+
+- intent: ask_body_fat_q8
+  examples: |
+  # Eating large portions spaced far apart will make the body believe there is a "famine" and will store the food as fat to prepare for hard times.
+    - Naturally increasing my Metabolism
+
+- intent: ask_body_fat_q9
+  examples: |
+  # "More specifically the sodium/carb intake within your diet and hydration.
+      #Cut back on the salts and increase you're hydration and see if that can't take off some of the water weight in your face."
+    - Chubbyness from the face and body
+
+- intent: ask_body_fat_q10
+  examples: |
+  # It might not be to your choosing, but for your body's furnace fat burning mechanism, it will get energy from fat based on it's most readily available source.
+    - Lower body fat problem
+
+- intent: ask_body_fat_q11
+  examples: |
+  # If we change the definition of spot reduction to be an optimal diet with a core-focused high-intensity strength workout followed by high-intensity cardio to minimally increase the efficiency of fat burn in the mid-section then yes, I think it has some merit.
+    - Is spot reduction necessarily a myth?
+
+- intent: ask_body_fat_q12
+  examples: |
+  # "Intelamterix makes a product called  BodyMetrix  that can accurately scan your body fat percentage and track your fat loss and muscle gain.
+      #The  software  itself tracks measurements and can generate reports."
+    - How to accurately measure muscle mass versus body fat?
+
+# -------------------------  reduce body-fat qs end -------------------------------------
+
+# -------------------------  muscle-mass qs start -----------------------------------
+- intent: ask_muscle_mass_q1
+  examples: |
+  # If you want upper-body mass you need to do activities that engage and exercise those muscle groups.
+    - How can I gain weight and muscle weight?
+
+- intent: ask_muscle_mass_q2
+  examples: |
+  # Two reasons why muscle mass and strength may not be completely congruous are:     Muscle fiber density   Muscle utilization      Density:  Your muscles are composed of four different types of fibers (slow-twitch, and three forms of fast-twitch).
+    - Why is muscle size not proportional to strength?
+
+- intent: ask_muscle_mass_q3
+  examples: |
+  # Probably the biggest reason folks use real training programs (Starting Strength, Madcow, Texas, 5/3/1, etc) are because they attempt to thread the needle on lifting as much as possible while never exceeding your recovery (basically).
+    - How long does it take for muscles to recover?
+
+- intent: ask_muscle_mass_q4
+  examples: |
+  # Testosterone and growth hormone are both known to cause muscle growth and make good use of the amino acids and proteins you have in your body at the time.
+    - Best timing and amount of protein intake for building mass
+
+- intent: ask_muscle_mass_q5
+  examples: |
+  # Lack of change in intensity, volume or frequency : Muscles get used to your set and rep scheme with in 6 workouts if not changed or progressively loaded will not super compensate.
+    - Is increasing resistance the only possibility to build more muscle mass?
+
+- intent: ask_muscle_mass_q6
+  examples: |
+  # I’m not saying you have to have a fat torso, but a light lifter like that won’t have the torso support for leverage.”   Taking the 6’2”, 165 lb aspiring powerlifter as an example, what’s the least he should weigh to avoid chasing his tail in the squat and the sport in general?
+    - Does muscle mass help or hurt for powerlifting and other strength sports?
+
+- intent: ask_muscle_mass_q7
+  examples: |
+  # "Gaining healthy weight is the same for vegetarians as it is for omnivores:  lift heavy, eat big, prioritize getting bigger .
+      #You'll still have to find a way to lift heavy, eat big, and prioritize getting bigger."
+    - How do I gain lean muscle mass as a vegetarian or vegan?
+
+- intent: ask_muscle_mass_q8
+  examples: |
+  # Here's an article from Greg Knuckols entitled " Avoiding Cardio Could Be Holding You Back " and another from Juggernaut Training entitled " Conditioning: How To Do It Right "   Combined there's easily maybe 20 pages of material to shift through, but the TLDR version is:     Lifting weights requires energy.
+    - Can you effectively put on mass while being highly active/fit?
+
+- intent: ask_muscle_mass_q9
+  examples: |
+  # "Free weights and resistance bands have in common that they produce a constant force along the line of action.
+      #So using a resistance band the force increases during the range of motion of the exercise."
+    - Is it possible to effectively build muscle mass using resistance bands?
+
+- intent: ask_muscle_mass_q10
+  examples: |
+  # "Priorise getting at least 7 hours of sleep a night:  This is necessary for good health.
+      #Look at alternate times:  if you are at work, university or school, can you workout during lunch?"
+    - If I can't get plenty of sleep, should I be doing anything different when trying to put on mass?
+
+- intent: ask_muscle_mass_q11
+  examples: |
+  # The compound exercises help build that base of strength, but they are not going to shape the muscles the way you want.
+    - Why do compound exercises build more mass than isolation exercises?
+
+- intent: ask_muscle_mass_q12
+  examples: |
+  # The main role of the arms in sprinting is to stabilize the torso and provide drive forward, especially in the start (Which is critical in 100/200m races).
+    - Why do sprinters have muscular arms?
+
+- intent: ask_muscle_mass_q13
+  examples: |
+  # Despite the erector spinae being 843cm^3 in one study, and possibly more, I only found individual data on longissimus thoracis and 2 other of the 9 muscles involved.
+    - List of muscles by volume in average man
+
+- intent: ask_muscle_mass_q14
+  examples: |
+  # A good beginner routine to build a base for more advanced grip training:  http://www.davidhorne-gripmaster.com/basics.html    Since the program doesn't include any pics/videos  here's a video  demonstrating the first two exercises, the two hands pinch (you can use loose plates or make a pinch block but the idea is the same) and barbell finger rolls.
+    - Training your forearms with weights?
+
+- intent: ask_muscle_mass_q15
+  examples: |
+  # If you are really strict with your diet (Bulking) you can expect to get like half a kilo of muscle per week after that.
+    - How much muscle gain can be expected within 1 month of training on average (m/w) [closed]
+
+- intent: ask_muscle_mass_q16
+  examples: |
+  # If you have zero equipment and you do not want to buy any I suggest that you accept that it is practically impossible to do bodyweight exercises and seriously gain strength without gaining any muscle.
+    - Full body workout for strength with minimal size
+
+- intent: ask_muscle_mass_q17
+  examples: |
+  # "The next week is for a transition, and the sets/reps are higher intensity but lower volume.
+      #He saw good results with that (all this fits within the increasing work capacity framework mind you), until he started stagnating and feeling beat up with that."
+    - What are you views on progress between rep range vs. fixed reps?
+
+- intent: ask_muscle_mass_q18
+  examples: |
+  # Anecdotally, I'll take a week off every couple of months (by choice or chance), and if anything I get a bit more flexible and can get back into the weight room with less nagging inflammation.
+    - Is it okay to take a one week break from the gym after the first one and a half months of training?
+
+- intent: ask_muscle_mass_q19
+  examples: |
+  # It definitely helps you gain muscle mass as long as you keep challenging yourself and altering your workout to target different areas of your chest as well as to prevent your body from adapting to the routine.
+    - Can I gain muscle mass doing push ups?
+
+- intent: ask_muscle_mass_q20
+  examples: |
+  # "Intelamterix makes a product called  BodyMetrix  that can accurately scan your body fat percentage and track your fat loss and muscle gain.
+      #The  software  itself tracks measurements and can generate reports."
+    - How to accurately measure muscle mass versus body fat?
+
+- intent: ask_muscle_mass_q21
+  examples: |
+  # "Because your abs will get a ton of work from squats and deadlifts.
+      #Personally, deadlifting heavy grew my obliques/lower abs/v(whatever that's called) more than anything else.
+      #Good luck man  "
+    - How can I increase ab depth and size?
+
+
+
+
+# -------------------------  muscle-mass qs end -------------------------------------
+
+
+# -------------------------  strength qs start --------------------------------------
+
+- intent: ask_strength_q1
+  examples: |
+  # Possible Goals   Training for  strength ,  power ,  endurance  and  hypertrophy   all require a different number of sets and reps :     Strength (how much weight your muscle can move) is best developed by lifting as much weight as possible.
+    - What are the trade-offs of weight versus repetition?
+- intent: ask_strength_q2
+  examples: |
+  # "When I started squatting, I had trouble with balance, hip mobility, and ankle mobility.
+      #I recommend warming the ankles up with lots of joint rotations (e.g. 20 in both directions) and more squatting."
+    - Is it normal when starting squats to not have flexible enough ankles?
+- intent: ask_strength_q3
+  examples: |
+  # Reg Park's program includes a lot of compound lifts (squats, deadlifts, dips, bench and overhead presses), but also a good deal of bodybuilding-oriented accessory work (calves, wrists).
+    - Are these Workout Routines right for Body Building
+- intent: ask_strength_q4
+  examples: |
+  # Two reasons why muscle mass and strength may not be completely congruous are:     Muscle fiber density   Muscle utilization      Density:  Your muscles are composed of four different types of fibers (slow-twitch, and three forms of fast-twitch).
+    - Why is muscle size not proportional to strength?
+- intent: ask_strength_q5
+  examples: |
+  # Strength training will increase the size and quantity of myofibrils, and subsequently increase the size of the respective muscle fibers; this process is called  hypertrophy , and it results in larger and stronger muscles.
+    - How does muscle size relate to strength?
+- intent: ask_strength_q6
+  examples: |
+  # "The advantage with free weights, of course, is we're all built differently.
+      #Testosterone production is not similarly increased by isolation free-weight exercises - or training on machines."
+    - Should one generally avoid machines in favor of free weights?
+- intent: ask_strength_q7
+  examples: |
+  # Training for powerlifting (completely strength-oriented) involves avoiding failure, keeping the number of reps low, and resting a lot between sets, none of which are really conducive to "burn" during a workout or soreness afterwards.
+    - Do you need to “feel the burn” to become stronger?
+- intent: ask_strength_q8
+  examples: |
+  # Let me recommend a couple books to you, as they can help you a long way towards your goals:      Starting Strength: Basic Barbell Training     Practical Programming for Strength Training      Both of these are by Dr. Kilgore and Mark Rippetoe.
+    - Where do I start when finding/creating a fitness program for myself?
+- intent: ask_strength_q9
+  examples: |
+   # By doing hypertrophy-type training, the neural output is fairly low (as compared to power training) and is not sufficient to simulate the motor neurons to "bud" (increase the number of muscle fibers in the motor unit they innervate).
+    - Neural Adaptation Training vs. Hypertrophy Training?
+- intent: ask_strength_q10
+  examples: |
+  # My own rule of thumb for strength training is to start 2 months earlier - that is, in your example,  the break period  - in the workout routines and to proceed from there with a 1-2 week  reboot period .
+    - Resuming workouts after 2 months. Any beginner workout suggestions?
+- intent: ask_strength_q11
+  examples: |
+   # Despite its name, proper form in this exercise requires a slight bend of the knees and when you bend down you need to be letting the middle of your body lean backwards over your center of gravity.
+    - Why aren't stiff legged deadlifts bad for your back?
+- intent: ask_strength_q12
+  examples: |
+  # The variations in resistance, targeting different muscle groups, and working towards a burn-out all contributed to breaking the muscle down to the point where it would grow back stronger during the recovery period.
+    - How can I increase the number of push-ups I can do?
+- intent: ask_strength_q13
+  examples: |
+  # "In my experience, the most detrimental aspect of smoking while bodybuilding is the lack of energy.
+      #From a medical standpoint, probably the most detrimental aspect of smoking is lack of oxygen."
+    - Smoking and its effects on muscle building
+- intent: ask_strength_q14
+  examples: |
+  # "In most strength programs, novices have a very quick recovery/supercompensation period--one to two days.
+      #Intermediate strength programming is generally designed around one week supercompensation periods."
+    - What's the time threshold for a drop in performance when taking a break from training?
+- intent: ask_strength_q15
+  examples: |
+  # To ensure that you're getting the maximum muscle building benefits of protein, you'll want to consume about 0.8 grams of protein per pound of body weight.
+    - Diet Plan for Building Lean Muscle
+- intent: ask_strength_q16
+  examples: |
+  # It may be the case, that there is actually quite little fat on your buttocks and legs, but it just looks a lot because of lack of muscle.
+    - Upper and lower body proportion, gaining muscle losing fat
+- intent: ask_strength_q17
+  examples: |
+  # Answering your question showed me that at (or around) that point, the quads become less dominant and the load is transferred to the hamstrings and glutes.
+    - How can the conventional deadlift be harder at the top than the bottom?
+- intent: ask_strength_q18
+  examples: |
+  # Kettlebell Swings   You can make your own improvised Kettlebell to save money, you should do these with pretty heavy weight if you want to build any size with these     Hindu Squats   are great for building lung power and and endurance.
+    - bodyweight leg exercises for strength/hypertrophy
+- intent: ask_strength_q19
+  examples: |
+  # "Kraemer et al, 1991; Kraemer et al 1990:      High volume, multiple set  programs are   more effective at increasing the   body's production of testosterone and   growth hormone.
+      #Soy increases estrogen, a female hormone, which lowers testosterone."
+    - How do I naturally boost my Testosterone levels?
+- intent: ask_strength_q20
+  examples: |
+  # In addition to these neck exercises, you should consider adding some  deadlifts  to your routine to balance the muscles of the upper back.
+    - how to correct forward neck posture?
+- intent: ask_strength_q21
+  examples: |
+  # 1.To live long and with a high quality of life (includes cognitive benefits, ability to use my body effectively long term, avoiding medical problems, etc.)     The extra time for strength training is definitely worth it for all of your goals, but esp.
+    - The value of strength training vs. the time/effort it takes
+- intent: ask_strength_q22
+  examples: |
+  # The variations in resistance, targeting different muscle groups, and working towards a burn-out all contributed to breaking the muscle down to the point where it would grow back stronger during the recovery period.
+    - How can I increase the number of push-ups I can do?
+- intent: ask_strength_q23
+  examples: |
+  # You could increase the number of sets to keep volume constant, or you could just do three very heavy sets of 3 and call it a day for your strength maintenance work.
+    - Losing weight without losing muscle
+- intent: ask_strength_q24
+  examples: |
+  # It's possible that the people you watch have different goals than you, like hypertrophy rather than strength, or bragging rights about the weight they curl instead of actually improving their curl.
+    - Good form with little weight or bad form with a lot of weight?
+- intent: ask_strength_q25
+  examples: |
+  # The focus is on an isolated jump, per the combine, but perhaps with some practice to drive these techniques into muscle memory you could work them into real-world usage i.e. basketball.
+    - How can I improve my vertical?
+- intent: ask_strength_q26
+  examples: |
+  # Some videos I recently bookmarked:   Best Bodyweight Shoulder Exercise  - shows that you can do pike push ups even with a cat in the way.
+    - Exercise for shoulders strength with no special equipment
+- intent: ask_strength_q27
+  examples: |
+  # There are three main ways to grip the bar for deadlifts that are competition legal: overhand (weakest), hook grip (rough on the thumbs), and mixed grip (one hand suppinated, strongest).
+    - How to overcome grip strength as sticking point for deadlifts?
+- intent: ask_strength_q28
+  examples: |
+  # "It tests strength with one-repetition maximum lifts in the squat, deadlift, and bench press.
+      #The squat/bench/deadlift is well balanced for overall strength--though it omits a pulling motion--but a one-repetition maximum in many lifts can test strength."
+    - What is the simplest way to measure strength?
+- intent: ask_strength_q29
+  examples: |
+  # You could check out the following link as a starting point:  https://www.precisionmovement.coach/front-splits-mobility-technique/    I have gone from a very stiff left hip to a much more flexible and mobile state.
+    - Can I increase flexibility by strengthening muscles?
+- intent: ask_strength_q30
+  examples: |
+  # "All you need at that point is a different way to manage your training volume and intensity.
+      #The most assured way to build strength is to increase the volume of work."
+    - what's the reality that keeps progressive strength training from being constant?
+- intent: ask_strength_q31
+  examples: |
+  # If you're having trouble hitting depth with the squat (you should be able to touch your butt to your ankles), this is a good stretch:     *Note: You should use your elbows to push your knees as far out as possible in this position as well.
+    - How to exercise for kyphosis?
+- intent: ask_strength_q32
+  examples: |
+  # https://doi.org/10.1136/bmj.39463.418380.be    "There is no evidence to support use of advice or training in working techniques with or without lifting equipment for preventing back pain or consequent disability.
+    - How does one lift a heavy box up from the ground?
+- intent: ask_strength_q33
+  examples: |
+  # If you have zero equipment and you do not want to buy any I suggest that you accept that it is practically impossible to do bodyweight exercises and seriously gain strength without gaining any muscle.
+    - Full body workout for strength with minimal size
+- intent: ask_strength_q34
+  examples: |
+  # Also look at all the different components to each task as you have described:  squatting, lifting, carrying, walking forwards and backwards, climbing up and down stairs forwards and backwards, pushing, pulling, gripping etc.
+    - Which muscles would I need to train for ambulance work?
+- intent: ask_strength_q35
+  examples: |
+  # This study  examined nitrogen balance and lean body mass preservation related to protein intake, and found that when not training, bodybuilders needed little more than sedentary to maintain mass, while protein needs did increase during training, and endurance athletes needed more than bodybuilders, being 1.12 x sedentary control levels for bodybuilders, and 1.67 x sedentary control for endurance training.
+    - What credibility or scientific backing does 1g protein per 1lb of body weight have for its applications?
+- intent: ask_strength_q36
+  examples: |
+  # "I'd focus on nailing my first post-workout meal and making sure I have enough energy for the second workout.
+      #I'd try to eat a meal or snack about two hours before the second workout."
+    - How can I best recover for a second strength workout on the same day?
+- intent: ask_strength_q37
+  examples: |
+  # "This process of lifting a heavy weight several times, then immediately doing the same exercise with lower weight for many reps, is called strip or drop sets.
+      #That's why bodybuilders prefer drop sets - because they're decidedly geared towards increasing muscle size (hypertrophy)."
+    - Are multiple sets with decreasing weight and no rest between them a good idea?
+- intent: ask_strength_q38
+  examples: |
+  # However, what Thibaudeau is probably describing is neural fatigue, and this is why commentators (Bompa and others) recommend periodising strength training to allow the nervous system time to recover.
+    - Does “Greasing the groove” work and if so why?
+- intent: ask_strength_q39
+  examples: |
+  # "If you could only do 10 pushups for years, then tried a new exercise and all the sudden you can do 50 pushups, you might want to example that and see why there was a change.
+      #For weight lifting, you don't want to do too many reps."
+    - To count or not to count?
+- intent: ask_strength_q40
+  examples: |
+  # "I'll try to answer this another way, and state that full range of motion (ROM) exercises do indeed increase flexibility.
+      #But provided you are stretching your body in other ways, I believe the range of motion will stay."
+    - Do isometric exercises decrease flexibility?
+- intent: ask_strength_q41
+  examples: |
+  # Squats train all of the supporting muscles of the torso -- including the anterior/abdominal muscles -- if you use a  Valsalva maneuver .
+    - Abdominal role in squats
+- intent: ask_strength_q42
+  examples: |
+  # "You can get a good cardio workout,  run in water , swim, stretch, do martial arts and strengthen with water exercises.
+      #For example, if you strengthen your hip muscles they can lessen the stress on your knee joints."
+    - What is a low-impact exercise routine that slowly progresses towards more normal exercises?
+- intent: ask_strength_q43
+  examples: |
+  # Performing a proper two-hand kettlebell swing is a whole-body workout as opposed to isolating single muscles.
+    - What are the target muscles of kettlebell swings
+- intent: ask_strength_q44
+  examples: |
+  # The pros of partial reps include the fact that you can carry on with an exercise when you can no longer do full ROM with good form, and you still want to push it a bit further to exert a smaller subset of the muscle group more.
+    - Are partial reps okay?
+- intent: ask_strength_q45
+  examples: |
+  # "They need a break to be ready for the next lifting.
+      #In that break time, they undergo repair and get nourished and grow stronger."
+    - why do we need more rest when lifting heavy?
+- intent: ask_strength_q46
+  examples: |
+  # In most of the academic literature, the core is understood to be comprised of three muscle groups: the  diaphragm  at the top, the  pelvic floor  complex at the bottom, and the deep  multifidus  and superficial  transversus abdominis  in the middle.
+    - Are the basic barbell lifts not enough for the “core”?
+- intent: ask_strength_q47
+  examples: |
+  # One of the side effects of higher protein content in your meals is that your body can start leeching calcium from your bones.
+    - Will calcium supplements affect my strength gain?
+- intent: ask_strength_q48
+  examples: |
+  # "Secondly, the squat, deadlift, and overhead press are all core exercises, and quite good ones.
+      #If you're not getting enough work now, you will soon, because you're adding weight each workout."
+    - Can I add in some core exercises to SL 5x5 and what do you suggest if so?
+- intent: ask_strength_q49
+  examples: |
+  # It’s the result of an inflammation of the tendon that moves the finger.
+    - Pinky finger movement affected by lifting weights?
+
+# -------------------------  strength qs end ----------------------------------------
+
+
+
+
+
+
+
 - intent: fitness_q1
   examples: |
     - What exercises should I perform to reduce fat on an area of my body called belly ?
