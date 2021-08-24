@@ -185,14 +185,9 @@ rules:
 
 # -------------------------  strength qs end ----------------------------------------
 
-
-
-
-
-
   - action: utter_fitness_answer
   - action: action_fitness_answer
-  - action: utter_goodbye
+#  - action: utter_goodbye
 
 
 
