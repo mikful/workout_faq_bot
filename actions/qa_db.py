@@ -312,13 +312,295 @@ def question_answer_pair(question: str) -> str:
         "ask_muscle_mass_q20":
             ' '.join(''' Intelamterix makes a product called  BodyMetrix  that can accurately 
             scan your body fat percentage and track your fat loss and muscle gain.
-      The  software  itself tracks measurements and can generate reports.'''.split()),
+            The  software  itself tracks measurements and can generate reports.'''.split()),
 
         #         - How can I increase ab depth and size?
         "ask_muscle_mass_q21":
             ' '.join('''Because your abs will get a ton of work from squats and deadlifts.
-      Personally, deadlifting heavy grew my obliques/lower abs/v(whatever that's called) more than anything else.
-      Good luck man '''.split()),
+            Personally, deadlifting heavy grew my obliques/lower abs/v(whatever that's called) more than anything else.
+            Good luck man '''.split()),
+
+        # -------------------------  muscle-mass qs end -----------------------------------
+        # -------------------------  strength qs start -----------------------------------
+        # What are the trade-offs of weight versus repetition?
+        "ask_strength_q1":
+            ' '.join('''Possible Goals: Training for strength, power, endurance and hypertrophy all require
+             a different number of sets and reps, e.g.: Strength (how much weight your muscle can move) is best 
+             developed by lifting as much weight as possible.'''.split()),
+
+        "ask_strength_q2":
+        # Is it normal when starting squats to not have flexible enough ankles?
+            ' '.join('''When I started squatting, I had trouble with balance, hip mobility, and ankle mobility.
+            I recommend warming the ankles up with lots of joint rotations (e.g. 20 in both directions) 
+            and more squatting.'''.split()),
+
+        "ask_strength_q3":
+        # Are these Workout Routines right for Body Building?
+            ' '.join('''Reg Park's program includes a lot of compound lifts (squats, deadlifts, dips, bench 
+            and overhead presses), but also a good deal of bodybuilding-oriented accessory work (calves, wrists).'''.split()),
+
+        "ask_strength_q4":
+        # Why is muscle size not proportional to strength?
+            ' '.join('''Two reasons why muscle mass and strength may not be completely congruous are:     
+            1. Muscle fiber density, 2. Muscle utilization. Density: Your muscles are composed of four different 
+            types of fibers (slow-twitch, and three forms of fast-twitch).'''.split()),
+
+        "ask_strength_q5":
+        # How does muscle size relate to strength?
+            ' '.join('''Strength training will increase the size and quantity of myofibrils, 
+            and subsequently increase the size of the respective muscle fibers; 
+            this process is called  hypertrophy, and it results in larger and stronger muscles.'''.split()),
+
+        "ask_strength_q6":
+        # Should one generally avoid machines in favor of free weights?
+            ' '.join('''The advantage with free weights, of course, is we're all built differently.
+            #Testosterone production is not similarly increased by isolation free-weight exercises
+             - or training on machines.'''.split()),
+
+        "ask_strength_q7":
+        # Do you need to “feel the burn” to become stronger?
+            ' '.join('''Training for powerlifting (completely strength-oriented) involves avoiding failure, 
+            keeping the number of reps low, and resting a lot between sets, none of which are really conducive 
+            to "burn" during a workout or soreness afterwards.'''.split()),        
+        
+        "ask_strength_q8":
+        # Where do I start when finding/creating a fitness program for myself?
+            ' '.join('''Let me recommend a couple books to you, as they can help you a long way towards your goals:
+            Starting Strength: Basic Barbell Training, Practical Programming for Strength Training. 
+            Both of these are by Dr. Kilgore and Mark Rippetoe.'''.split()),    
+
+        "ask_strength_q9":
+        # Neural Adaptation Training vs. Hypertrophy Training?
+            ' '.join('''By doing hypertrophy-type training, the neural output is fairly low (as compared to power training)
+             and is not sufficient to simulate the motor neurons to "bud" 
+             (increase the number of muscle fibers in the motor unit they innervate).'''.split()),   
+
+        "ask_strength_q10":
+        # Resuming workouts after 2 months. Any beginner workout suggestions?
+            ' '.join('''My own rule of thumb for strength training is to start 2 months earlier - that is, in your example,  
+            the break period - in the workout routines and to proceed from there with a 1-2 week reboot period.'''.split()),   
+     
+        "ask_strength_q11":
+        # Why aren't stiff legged deadlifts bad for your back?
+            ' '.join('''Despite its name, proper form in this exercise requires a slight bend of the knees and 
+            when you bend down you need to be letting the middle of your body lean 
+            backwards over your center of gravity.'''.split()),   
+
+        "ask_strength_q12":
+        # How can I increase the number of push-ups I can do?
+            ' '.join('''The variations in resistance, targeting different muscle groups, and working towards a burn-out all 
+            contributed to breaking the muscle down to the point where it would grow back stronger 
+            during the recovery period.'''.split()),
+
+        "ask_strength_q13":
+        # Smoking and its effects on muscle building
+            ' '.join('''In my experience, the most detrimental aspect of smoking while bodybuilding is the lack of energy.
+            From a medical standpoint, probably the most detrimental aspect of smoking is lack of oxygen.'''.split()),
+        
+        "ask_strength_q14":
+        # What's the time threshold for a drop in performance when taking a break from training?
+            ' '.join('''In most strength programs, novices have a very quick recovery/supercompensation period--one to two days.
+            Intermediate strength programming is generally designed around one week supercompensation periods.'''.split()),
+        
+        
+        "ask_strength_q15":
+        #            - Diet Plan for Building Lean Muscle
+            ' '.join('''To ensure that you're getting the maximum muscle building benefits of protein, 
+            you'll want to consume about 0.8 grams of protein per pound of body weight.'''.split()),
+
+        "ask_strength_q16":
+        # Upper and lower body proportion, gaining muscle losing fat
+            ' '.join('''It may be the case, that there is actually quite little fat on your buttocks and legs, 
+            but it just looks a lot because of lack of muscle.'''.split()),
+
+        "ask_strength_q17":
+        #            - How can the conventional deadlift be harder at the top than the bottom?
+            ' '.join('''Answering your question showed me that at (or around) that point, 
+            the quads become less dominant and the load is transferred to the hamstrings and glutes.'''.split()),
+
+        "ask_strength_q18":
+        #            - bodyweight leg exercises for strength/hypertrophy
+            ' '.join('''Kettlebell Swings: You can make your own improvised Kettlebell to save money, 
+            you should do these with pretty heavy weight if you want to build any size with these.
+            Hindu Squats: are great for building lung power and and endurance.'''.split()),
+
+        "ask_strength_q19":
+        #            - How do I naturally boost my Testosterone levels?
+            ' '.join('''Kraemer et al, 1991; Kraemer et al 1990: High volume, multiple set programs are  
+            more effective at increasing the body's production of testosterone and growth hormone. 
+            Soy increases estrogen, a female hormone, which lowers testosterone.'''.split()),
+
+        "ask_strength_q20":
+        #            - how to correct forward neck posture?
+            ' '.join('''In addition to these neck exercises, you should consider adding some deadlifts
+            to your routine to balance the muscles of the upper back.'''.split()),
+
+        "ask_strength_q21":
+        #            - The value of strength training vs. the time/effort it takes
+            ' '.join('''1.To live long and with a high quality of life (includes cognitive benefits, 
+            ability to use my body effectively long term, avoiding medical problems, etc.).
+            The extra time for strength training is definitely worth it for all of your goals.'''.split()),
+
+        "ask_strength_q22":
+        #            - How can I increase the number of push-ups I can do?
+            ' '.join('''The variations in resistance, targeting different muscle groups, and working towards 
+            a burn-out all contributed to breaking the muscle down to the point where it 
+            would grow back stronger during the recovery period.'''.split()),
+
+        "ask_strength_q23":
+        #            - Losing weight without losing muscle
+            ' '.join('''You could increase the number of sets to keep volume constant, or you could just do three 
+            very heavy sets of 3 and call it a day for your strength maintenance work.'''.split()),
+
+        "ask_strength_q24":
+        #            - Good form with little weight or bad form with a lot of weight?
+            ' '.join('''It's possible that the people you watch have different goals than you, 
+            like hypertrophy rather than strength, or bragging rights about the weight they curl 
+            instead of actually improving their curl.'''.split()),
+
+        - "ask_strength_q25":
+        #            - How can I improve my vertical?
+            ' '.join('''The focus is on an isolated jump, per the combine, but perhaps with some practice to drive 
+            these techniques into muscle memory you could work them into real-world usage i.e. basketball.'''.split()),
+
+        "ask_strength_q26":
+        #            - Exercise for shoulders strength with no special equipment
+            ' '.join('''Some videos I recently bookmarked: Best Bodyweight Shoulder Exercise 
+            - shows that you can do pike push ups even with a cat in the way.'''.split()),
+
+        "ask_strength_q27":
+        #           - How to overcome grip strength as sticking point for deadlifts?
+            ' '.join('''There are three main ways to grip the bar for deadlifts that are competition legal: 
+            overhand (weakest), hook grip (rough on the thumbs), and mixed grip (one hand suppinated, strongest).'''.split()),
+
+        "ask_strength_q28":
+        #           - What is the simplest way to measure strength?
+            ' '.join('''It tests strength with one-repetition maximum lifts in the squat, deadlift, and bench press.
+            #The squat/bench/deadlift is well balanced for overall strength--though it omits a pulling motion - 
+            but a one-repetition maximum in many lifts can test strength.'''.split()),
+
+        "ask_strength_q29":
+        #            - Can I increase flexibility by strengthening muscles?
+            ' '.join('''You could check out the following link as a starting point: https://www.precisionmovement.coach/front-splits-mobility-technique/.
+            I have gone from a very stiff left hip to a much more flexible and mobile state.'''.split()),
+
+        "ask_strength_q30":
+        #            - what's the reality that keeps progressive strength training from being constant?
+            ' '.join('''All you need at that point is a different way to manage your training volume and intensity.
+            The most assured way to build strength is to increase the volume of work.'''.split()),
+
+        "ask_strength_q31":
+        #                - How to exercise for kyphosis?
+            ' '.join('''I recommend the olympic style front squat: http://www.exrx.net/WeightExercises/OlympicLifts/FrontSquat.html. 
+            The front squat is the king of exercises for the thoracic spine. 
+            It will give you perfect posture, and will get you strengthening and extending your upper back like nothing else.'''.split()),
+
+        "ask_strength_q32":
+        #            - How does one lift a heavy box up from the ground?
+            ' '.join('''https://doi.org/10.1136/bmj.39463.418380.be. "There is no evidence to support use of advice 
+            or training in working techniques with or without lifting equipment 
+            for preventing back pain or consequent disability.'''.split()),
+
+        "ask_strength_q33":
+        #            - Full body workout for strength with minimal size
+            ' '.join('''If you have zero equipment and you do not want to buy any I suggest that you
+             accept that it is practically impossible to do bodyweight exercises and seriously gain 
+             strength without gaining any muscle.'''.split()),
+
+        "ask_strength_q34":
+        #            - Which muscles would I need to train for ambulance work?
+            ' '.join('''Look at all the different components to each task as you have described: 
+            squatting, lifting, carrying, walking forwards and backwards, climbing up and down stairs 
+            forwards and backwards, pushing, pulling, gripping etc.'''.split()),
+
+        "ask_strength_q35":
+        #            - What credibility or scientific backing does 1g protein per 1lb of body weight have for its applications?
+            ' '.join('''A study examined nitrogen balance and lean body mass preservation related
+             to protein intake, and found that when not training, bodybuilders needed little more than
+              sedentary to maintain mass, while protein needs did increase during training, 
+              and endurance athletes needed more than bodybuilders, being 1.12 x sedentary control 
+              levels for bodybuilders, and 1.67 x sedentary control for endurance training.'''.split()),
+
+        "ask_strength_q36":
+        #            - How can I best recover for a second strength workout on the same day?
+            ' '.join('''I'd focus on nailing my first post-workout meal and making sure I have 
+            enough energy for the second workout. I'd try to eat a meal or snack about two hours 
+            before the second workout.'''.split()),
+
+        "ask_strength_q37":
+        #            - Are multiple sets with decreasing weight and no rest between them a good idea?
+            ' '.join('''This process of lifting a heavy weight several times, then immediately doing 
+            the same exercise with lower weight for many reps, is called strip or drop sets. That's why 
+            bodybuilders prefer drop sets - because they're decidedly geared towards 
+            increasing muscle size (hypertrophy).'''.split()),
+
+        "ask_strength_q38":
+        #            - Does “Greasing the groove” work and if so why?
+            ' '.join('''However, what Thibaudeau is probably describing is neural fatigue, 
+            and this is why commentators (Bompa and others) recommend periodising strength training 
+            to allow the nervous system time to recover.'''.split()),
+
+        "ask_strength_q39":
+        #            - To count or not to count?
+            ' '.join('''If you could only do 10 pushups for years, then tried a new exercise and all 
+            the sudden you can do 50 pushups, you might want to example that and see why there was a change. 
+            For weight lifting, you don't want to do too many reps.'''.split()),
+
+        "ask_strength_q40":
+        #            - Do isometric exercises decrease flexibility?
+            ' '.join('''I'll try to answer this another way, and state that full range of motion (ROM) 
+            exercises do indeed increase flexibility. But provided you are stretching your body in other ways, 
+            I believe the range of motion will stay.'''.split()),
+        
+        "ask_strength_q41":
+        #            - Abdominal role in squats
+            ' '.join('''Squats train all of the supporting muscles of the torso -- 
+            including the anterior/abdominal muscles -- if you use a  Valsalva maneuver.'''.split()),
+
+        "ask_strength_q42":
+        #            - What is a low-impact exercise routine that slowly progresses towards more normal exercises?
+            ' '.join('''You can get a good cardio workout, run in water, swim, stretch, do martial arts and 
+            strengthen with water exercises. For example, if you strengthen your hip muscles they can lessen 
+            the stress on your knee joints.'''.split()),
+
+        "ask_strength_q43":
+        #            - What are the target muscles of kettlebell swings
+            ' '.join('''Performing a proper two-hand kettlebell swing is a whole-body workout as 
+            opposed to isolating single muscles.'''.split()),
+
+        "ask_strength_q44":
+        #            - Are partial reps okay?
+            ' '.join('''The pros of partial reps include the fact that you can carry on with an 
+            exercise when you can no longer do full ROM with good form, and you still want to 
+            push it a bit further to exert a smaller subset of the muscle group more.'''.split()),
+
+        "ask_strength_q45":
+        #            - why do we need more rest when lifting heavy?
+            ' '.join('''They need a break to be ready for the next lifting.
+            #In that break time, they undergo repair and get nourished and grow stronger.'''.split()),
+
+        "ask_strength_q46":
+        #            - Are the basic barbell lifts not enough for the “core”?
+            ' '.join('''In most of the academic literature, the core is understood to be comprised 
+            of three muscle groups: the  diaphragm  at the top, the  pelvic floor  complex at the 
+            bottom, and the deep  multifidus  and superficial  transversus abdominis  in the middle.'''.split()),
+
+        "ask_strength_q47":
+        #            - Will calcium supplements affect my strength gain?
+            ' '.join('''One of the side effects of higher protein content in your meals is that your 
+            body can start leeching calcium from your bones.'''.split()),
+
+        "ask_strength_q48":
+        #            - Can I add in some core exercises to SL 5x5 and what do you suggest if so?
+            ' '.join('''The squat, deadlift, and overhead press are all core exercises, and quite good ones.
+            If you're not getting enough work now, you will soon, because you're adding weight each workout.'''.split()),
+
+        - "ask_strength_q49":
+        #            - Pinky finger movement affected by lifting weights?
+            ' '.join('''It’s the result of an inflammation of the tendon that moves the finger.'''.split()),
+
+        # -------------------------  strength qs end -----------------------------------
+
 
     }
 

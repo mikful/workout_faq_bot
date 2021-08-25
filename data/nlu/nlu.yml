@@ -482,7 +482,7 @@ nlu:
       #I recommend warming the ankles up with lots of joint rotations (e.g. 20 in both directions) and more squatting."
 - intent: ask_strength_q3
   examples: |
-    - Are these Workout Routines right for Body Building
+    - Are these Workout Routines right for Body Building?
       # Reg Park's program includes a lot of compound lifts (squats, deadlifts, dips, bench and overhead presses), but also a good deal of bodybuilding-oriented accessory work (calves, wrists).
 
 - intent: ask_strength_q4
