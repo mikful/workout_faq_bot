@@ -319,6 +319,7 @@ def question_answer_pair(question: str) -> str:
             ' '.join('''Because your abs will get a ton of work from squats and deadlifts.
       Personally, deadlifting heavy grew my obliques/lower abs/v(whatever that's called) more than anything else.
       Good luck man '''.split()),
+
     }
 
     return qa_mem_db[question]

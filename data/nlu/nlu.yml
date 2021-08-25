@@ -63,7 +63,7 @@ nlu:
     - denied
     - i deny
     - i don't think so
-    - i doubt 
+    - i doubt
     - could have been better
 - intent: thankyou
   examples: |
@@ -114,18 +114,35 @@ nlu:
 - intent: ask_metabol_q1
   examples: |
     - How to Increase height naturally? Are those ads gimmicks?
+#    - how can i get taller?
+#    - are there any gimmicks in ads?
+#    - how should i increase my height?
+#    - how do i increase my height?
+#    - how can you increase height naturally?
+#    - how to increase height naturally?
+#    - how can i increase my height without the use of gimmicks?
     # If you're just playing amateur level sports, and make it your goal to have a massive vertical jump, you'll more than make up for your lack of height.
 
 
 - intent: ask_metabol_q2
   examples: |
     - Can weight lost be sustained through exercise influenced metabolism changes?
+#    - is weight loss easily sustained by exercise?
+#    - can weight loss by workouts affect metabolism?
+#    - how are you sure that exercise influenced metabolism can be manipulated?
     # So now we've got people who've lost fat as well as useful lean body mass, have a lowered metabolic rate and are then released from their harsh crash diet.
 
 
 - intent: ask_metabol_q3
   examples: |
     - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
+#    - do i get to eat everything within 15 minutes of training?
+#    - can i eat anything i want within 15 minutes after exercising without worrying about my weight?
+#    - is it true that you can eat anything you like within 15 minutes of workout?
+#    - is it possible to eat anything within 15 minutes of working out without putting on weight?
+#    - is it true that you can eat anything you want within 15 minutes of exercising without weight gain?
+#    - is it true that you can eat anything you want in 15 minutes of exercise without putting on weight?
+#    - is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
     # Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
 
 
@@ -133,6 +150,8 @@ nlu:
 - intent: ask_metabol_q4
   examples: |
     - Does working a diverse set of muscles increase metabolism?
+#    - does the exercise of various muscle groups boost metabolism?
+#    - is it healthy for me to work a diverse set of muscles for weight loss?
         # Anaerobic workouts are basically intense workouts that push your body beyond the ability to provide energy just through normal aerobic metabolism.
 
 
@@ -140,17 +159,36 @@ nlu:
 - intent: ask_metabol_q5
   examples: |
     - How does one train for sports when the three metabolic pathways interact?
+#    - how can i train for sports?
+#    - how do people train for sports?
+#    - how do i train for sports?
+#    - what can one do to train for sports?
+#    - how are the three metabolic pathways interrelated?
+#    - how do i train for sport when these three metabolic pathways interact?
       # The oxidative pathways run fairly continuously to maintain life and replenish tissues that have made use of anaerobic energy conversion.
 
 
 - intent: ask_metabol_q6
   examples: |
     - Does exercise REALLY increase the basal metabolism rate for any significant length of time after the exercise is over?
+#    - is exercise really a long-term solution to increase basal metabolic rate?
+#    - how does exercising actually increase your basal metabolic rate?
+#    - how does exercising really increase a body's basal metabolic rate?
+#    - does exercise actually raise the basal metabolic rate during exercise?
+#    - does exercise increase basal metabolism for a significantly longer period of time after the exercise is over?
+#    - does exercising increase the basal metabolic rate for any significant length of time after exercise?
+#    - does exercise actually increase the basal metabolism rate for any significant length of time after exercise?
+#    - does exercise increase the basal metabolic rate for any significant length of time after exercise is over?
+#    - does exercise increase the basal metabolic rate for any significant length of time after the exercise is over?
   # In this study :  http://www.mendeley.com/research/postexercise-energy-expenditure-response-acute-aerobic-resistive-exercise/  they used 90 minute, high intensity strength workouts, and still after 15 hours, the metabolic rate was elevated.
 
 - intent: ask_metabol_q7
   examples: |
     - How much cardio is advisable for an overweight person who is new to bodybuilding?
+#    - how much cardio should i workout for?
+#    - how much cardio should i do for beginners?
+#    - how much cardio is recommended for an overweight person who is new to bodybuilding?
+#    - how much cardio is advisable for an overweight person who is new to bodybuilding?
     # Vice versa, with higher peaks and stronger contractions you will get a glycolitic type of muscle; and this type of muscle is the one you want to get if you are trying to aim at power/strenght sports and/or hypertrophy ( composed mostly of IIa and IIx fibers ).
 
 - intent: ask_metabol_q8
@@ -161,11 +199,17 @@ nlu:
 - intent: ask_metabol_q9
   examples: |
     - What is the best way to bring one's metabolism out of starvation mode following a diet?
+#    - how can i put my metabolism back into fullness after eating a diet?
+#    - how do i get my metabolism off starvation mode?
+#    - how can i get my metabolism out of starvation mode?
+#    - tell me the best way to get your metabolism out of starvation mode?
+#    - tell me the best way to get your metabolism out of starvation mode after a diet?
     # Progress can be measured by trying to determine her basal temperature; it's probably quite low now (almost nobody on the planet actually has a 98.6 deg.
 
 - intent: ask_metabol_q10
   examples: |
     - why do we need more rest when lifting heavy?
+#    - why do people need more rest while lifting?
   # "They need a break to be ready for the next lifting. In that break time, they undergo repair and get nourished and grow stronger."
 
 # ------------------------- ends metabolism questions --------------------------
@@ -175,16 +219,32 @@ nlu:
 - intent: ask_weight_gain_q1
   examples: |
     - How can I gain weight and muscle weight?
+#    - can one gain weight quickly without losing weight?
+#    - how do i gain muscle?
+#    - how do i gain weight?
+#    - list some ways to gain a good and healthy weight?
+#    - how can i gain muscle mass and weight?
+#    - how can i gain muscle weight?
   # If you want upper-body mass you need to do activities that engage and exercise those muscle groups.
 
 - intent: ask_weight_gain_q2
   examples: |
     - Can weight lost be sustained through exercise influenced metabolism changes?
+#    - is weight loss easily sustained by exercise?
+#    - can weight loss by workouts affect metabolism?
+#    - how are you sure that exercise influenced metabolism can be manipulated?
   # So now we've got people who've lost fat as well as useful lean body mass, have a lowered metabolic rate and are then released from their harsh crash diet.
 
 - intent: ask_weight_gain_q3
   examples: |
     - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
+#    - do i get to eat everything within 15 minutes of training?
+#    - can i eat anything i want within 15 minutes after exercising without worrying about my weight?
+#    - is it true that you can eat anything you like within 15 minutes of workout?
+#    - is it possible to eat anything within 15 minutes of working out without putting on weight?
+#    - is it true that you can eat anything you want within 15 minutes of exercising without weight gain?
+#    - is it true that you can eat anything you want in 15 minutes of exercise without putting on weight?
+#    - is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
   # Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
 
 - intent: ask_weight_gain_q4
@@ -195,6 +255,15 @@ nlu:
 - intent: ask_weight_gain_q5
   examples: |
     - How to gain weight for a naturally thin person?
+#    - how do i gain weight?
+#    - can one gain weight easily?
+#    - how can i gain weight naturally?
+#    - how can i gain weight naturally and quickly?
+#    - how do i gain weight naturally?
+#    - can i gain weight in a natural way?
+#    - how do you gain weight naturally in a thin body?
+#    - how do i gain weight naturally when i am thin?
+#    - what should i do if i am a naturally thin person?
 # "My general suggestion for people are new to exercise is to start with aiming for balance of their intake of carbs and protein.
       #How many calories depends a lot on your weight/height/age."
 - intent: ask_weight_gain_q6
@@ -205,6 +274,12 @@ nlu:
 - intent: ask_weight_gain_q7
   examples: |
     - Milk+honey helps gain weight?
+#    - does milkhoney increase weight?
+#    - does milkhoney help you to gain weight?
+#    - milkhoney will help gain weight?
+#    - how does milkhoney help you gain weight?
+#    - does milkhoney help gain weight?
+#    - can milkhoney help gain weight?
 # "It might help you gain weight, but you would have to drink a lot of it.
       #You're in a position where you have the opportunity to eat lots of nutritious foods which
       # will benefit more then you know but you've chosen milk and honey."
@@ -639,8 +714,6 @@ nlu:
   examples: |
     - Pinky finger movement affected by lifting weights?
       # It’s the result of an inflammation of the tendon that moves the finger.
-
-
 # -------------------------  strength qs end ----------------------------------------
 
 
@@ -698,27 +771,27 @@ nlu:
     - played [football](exercise)
     - I did a [workout](exercise) video
     - I played [game](exercise) outdoors
-    - I want to get up early and go for a run
-    - Be more patient with my family
-    - Try to be a better friend
+    - [I want to get up early and go for a run](goal)
+    - [Be more patient with my family](goal)
+    - [Try to be a better friend](goal)
     - [Make sure to eat better tomorrow](goal)
     - [eat less junk food](goal)
     - [eat better](goal)
     - [walk 10 km](goal)
-    - spend less time on my phone
-    - don't procrastinate
-    - Go to bed earlier
+    - [spend less time on my phone](goal)
+    - [don't procrastinate](goal)
+    - [Go to bed earlier](goal)
     - [no plans](goal)
-    - Don't stay up so late
-    - try to make some time to meditate
-    - i ate pretty healthy overall
-    - lots of fruits and vegetables
-    - I ate a salad
-    - too many snacks(goal)
-    - too many sweets(goal)
-    - too much junk food
-    - a lot of carbs
-    - too much fatty food
-    - Get more exercise
+    - [Don't stay up so late](goal)
+    - [try to make some time to meditate](goal)
+    - [i ate pretty healthy overall](diet)
+    - [lots of fruits and vegetables](diet)
+    - [I ate a salad](diet)
+    - [too many snacks](diet)
+    - [too many sweets](diet)
+    - [too much junk food](diet)
+    - [a lot of carbs](diet)
+    - [too much fatty food](diet)
+    - [Get more exercise](goal)
 
     # todo
